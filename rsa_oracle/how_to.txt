@@ -1,0 +1,29 @@
+Encrypt message " "
+ascii code = 0x20 = 32
+
+C = 32 ^ e mod n
+C is given from the oracle
+
+take the password, 873224563026311790736191809393138825971072101706285228102516279725246082824238887755080848591049817640245481028953722926586046994669540835757705139131212
+and multiply that by C to get C_b
+C_b = t^e * 32^e mod n
+where t is the plaintext password
+
+when the oracle decrypts the message, the following happens:
+
+C_b ^ d = (t^e)^d * (32^e)6^d mod n
+
+C = x^e and x = C^d
+where x is plaintext message
+
+(x^e)^d = x mod n
+C_b ^d = t * 32 mod n
+
+take the decrypted message that is outputted, and divide it by 32 to get the password in an integer form
+convert it to hex, then convert it to a string by converting each 2 pair to an int and finding ascii representation
+
+password is 92d53
+after using 
+openssl enc -aes-256-cbc -d -in secret.enc -k 92d53
+the flag is:
+picoCTF{su((3ss_(r@ck1ng_r3@_92d53250}
