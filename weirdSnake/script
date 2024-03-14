@@ -1,0 +1,312 @@
+  1           0 LOAD_CONST               0 (0)
+              2 LOAD_CONST               1 (None)
+              4 IMPORT_NAME              0 (dis)
+              6 STORE_NAME               0 (dis)
+
+  3           8 LOAD_CONST               0 (0)
+             10 BUILD_LIST               1
+             12 LOAD_CONST               2 (40)
+             14 BINARY_MULTIPLY
+             16 STORE_NAME               1 (input_list)
+
+  4          18 LOAD_CONST               3 (4)
+             20 LOAD_NAME                1 (input_list)
+             22 LOAD_CONST               0 (0)
+             24 STORE_SUBSCR
+
+  5          26 LOAD_CONST               4 (54)
+             28 LOAD_NAME                1 (input_list)
+             30 LOAD_CONST               5 (1)
+             32 STORE_SUBSCR
+
+  6          34 LOAD_CONST               6 (41)
+             36 LOAD_NAME                1 (input_list)
+             38 LOAD_CONST               7 (2)
+             40 STORE_SUBSCR
+
+  7          42 LOAD_CONST               0 (0)
+             44 LOAD_NAME                1 (input_list)
+             46 LOAD_CONST               8 (3)
+             48 STORE_SUBSCR
+
+  8          50 LOAD_CONST               9 (112)
+             52 LOAD_NAME                1 (input_list)
+             54 LOAD_CONST               3 (4)
+             56 STORE_SUBSCR
+
+  9          58 LOAD_CONST              10 (32)
+             60 LOAD_NAME                1 (input_list)
+             62 LOAD_CONST              11 (5)
+             64 STORE_SUBSCR
+
+ 10          66 LOAD_CONST              12 (25)
+             68 LOAD_NAME                1 (input_list)
+             70 LOAD_CONST              13 (6)
+             72 STORE_SUBSCR
+
+ 11          74 LOAD_CONST              14 (49)
+             76 LOAD_NAME                1 (input_list)
+             78 LOAD_CONST              15 (7)
+             80 STORE_SUBSCR
+
+ 12          82 LOAD_CONST              16 (33)
+             84 LOAD_NAME                1 (input_list)
+             86 LOAD_CONST              17 (8)
+             88 STORE_SUBSCR
+
+ 13          90 LOAD_CONST               8 (3)
+             92 LOAD_NAME                1 (input_list)
+             94 LOAD_CONST              18 (9)
+             96 STORE_SUBSCR
+
+ 14          98 LOAD_CONST               0 (0)
+            100 LOAD_NAME                1 (input_list)
+            102 LOAD_CONST              19 (10)
+            104 STORE_SUBSCR
+
+ 15         106 LOAD_CONST               0 (0)
+            108 LOAD_NAME                1 (input_list)
+            110 LOAD_CONST              20 (11)
+            112 STORE_SUBSCR
+
+ 16         114 LOAD_CONST              21 (57)
+            116 LOAD_NAME                1 (input_list)
+            118 LOAD_CONST              22 (12)
+            120 STORE_SUBSCR
+
+ 17         122 LOAD_CONST              10 (32)
+            124 LOAD_NAME                1 (input_list)
+            126 LOAD_CONST              23 (13)
+            128 STORE_SUBSCR
+
+ 18         130 LOAD_CONST              24 (108)
+            132 LOAD_NAME                1 (input_list)
+            134 LOAD_CONST              25 (14)
+            136 STORE_SUBSCR
+
+ 19         138 LOAD_CONST              26 (23)
+            140 LOAD_NAME                1 (input_list)
+            142 LOAD_CONST              27 (15)
+            144 STORE_SUBSCR
+
+ 20         146 LOAD_CONST              28 (48)
+            148 LOAD_NAME                1 (input_list)
+            150 LOAD_CONST              29 (16)
+            152 STORE_SUBSCR
+
+ 21         154 LOAD_CONST               3 (4)
+            156 LOAD_NAME                1 (input_list)
+            158 LOAD_CONST              30 (17)
+            160 STORE_SUBSCR
+
+ 22         162 LOAD_CONST              18 (9)
+            164 LOAD_NAME                1 (input_list)
+            166 LOAD_CONST              31 (18)
+            168 STORE_SUBSCR
+
+ 23         170 LOAD_CONST              32 (70)
+            172 LOAD_NAME                1 (input_list)
+            174 LOAD_CONST              33 (19)
+            176 STORE_SUBSCR
+
+ 24         178 LOAD_CONST              15 (7)
+            180 LOAD_NAME                1 (input_list)
+            182 LOAD_CONST              34 (20)
+            184 STORE_SUBSCR
+
+ 25         186 LOAD_CONST              35 (110)
+            188 LOAD_NAME                1 (input_list)
+            190 LOAD_CONST              36 (21)
+            192 STORE_SUBSCR
+
+ 26         194 LOAD_CONST              37 (36)
+            196 LOAD_NAME                1 (input_list)
+            198 LOAD_CONST              38 (22)
+            200 STORE_SUBSCR
+
+ 27         202 LOAD_CONST              17 (8)
+            204 LOAD_NAME                1 (input_list)
+            206 LOAD_CONST              26 (23)
+            208 STORE_SUBSCR
+
+ 28         210 LOAD_CONST              24 (108)
+            212 LOAD_NAME                1 (input_list)
+            214 LOAD_CONST              39 (24)
+            216 STORE_SUBSCR
+
+ 29         218 LOAD_CONST              15 (7)
+            220 LOAD_NAME                1 (input_list)
+            222 LOAD_CONST              12 (25)
+            224 STORE_SUBSCR
+
+ 30         226 LOAD_CONST              14 (49)
+            228 LOAD_NAME                1 (input_list)
+            230 LOAD_CONST              40 (26)
+            232 STORE_SUBSCR
+
+ 31         234 LOAD_CONST              19 (10)
+            236 LOAD_NAME                1 (input_list)
+            238 LOAD_CONST              41 (27)
+            240 STORE_SUBSCR
+
+ 32         242 LOAD_CONST               3 (4)
+            244 LOAD_NAME                1 (input_list)
+            246 LOAD_CONST              42 (28)
+            248 STORE_SUBSCR
+
+ 33         250 LOAD_CONST              43 (86)
+            252 LOAD_NAME                1 (input_list)
+            254 LOAD_CONST              44 (29)
+            256 STORE_SUBSCR
+
+ 34         258 LOAD_CONST              45 (43)
+            260 LOAD_NAME                1 (input_list)
+            262 LOAD_CONST              46 (30)
+            264 STORE_SUBSCR
+
+ 35         266 LOAD_CONST              24 (108)
+            268 LOAD_NAME                1 (input_list)
+            270 LOAD_CONST              47 (31)
+            272 STORE_SUBSCR
+
+ 36         274 LOAD_CONST              48 (122)
+            276 LOAD_NAME                1 (input_list)
+            278 LOAD_CONST              10 (32)
+            280 STORE_SUBSCR
+
+ 37         282 LOAD_CONST              25 (14)
+            284 LOAD_NAME                1 (input_list)
+            286 LOAD_CONST              16 (33)
+            288 STORE_SUBSCR
+
+ 38         290 LOAD_CONST               7 (2)
+            292 LOAD_NAME                1 (input_list)
+            294 LOAD_CONST              49 (34)
+            296 STORE_SUBSCR
+
+ 39         298 LOAD_CONST              50 (71)
+            300 LOAD_NAME                1 (input_list)
+            302 LOAD_CONST              51 (35)
+            304 STORE_SUBSCR
+
+ 40         306 LOAD_CONST              52 (62)
+            308 LOAD_NAME                1 (input_list)
+            310 LOAD_CONST              37 (36)
+            312 STORE_SUBSCR
+
+ 41         314 LOAD_CONST              53 (115)
+            316 LOAD_NAME                1 (input_list)
+            318 LOAD_CONST              54 (37)
+            320 STORE_SUBSCR
+
+ 42         322 LOAD_CONST              55 (88)
+            324 LOAD_NAME                1 (input_list)
+            326 LOAD_CONST              56 (38)
+            328 STORE_SUBSCR
+
+ 43         330 LOAD_CONST              57 (78)
+            332 LOAD_NAME                1 (input_list)
+            334 LOAD_CONST              58 (39)
+            336 STORE_SUBSCR
+
+ 45         338 LOAD_CONST              59 ('J')
+            340 STORE_NAME               2 (key_str)
+
+ 46         342 LOAD_NAME                2 (key_str)
+            344 LOAD_CONST              60 ('_')
+            346 BINARY_ADD
+            348 STORE_NAME               2 (key_str)
+
+ 47         350 LOAD_NAME                2 (key_str)
+            352 LOAD_CONST              61 ('o')
+            354 BINARY_ADD
+            356 STORE_NAME               2 (key_str)
+
+ 48         358 LOAD_NAME                2 (key_str)
+            360 LOAD_CONST              62 ('3')
+            362 BINARY_ADD
+            364 STORE_NAME               2 (key_str)
+
+ 49         366 LOAD_NAME                2 (key_str)
+            368 LOAD_CONST              63 ('t')
+            370 BINARY_ADD
+            372 STORE_NAME               2 (key_str)
+
+ 51         374 LOAD_CONST              64 (<code object <listcomp> at 0x000002246E220710, file "script.py", line 51>)
+            376 LOAD_CONST              65 ('<listcomp>')
+            378 MAKE_FUNCTION            0
+            380 LOAD_NAME                2 (key_str)
+            382 GET_ITER
+            384 CALL_FUNCTION            1
+            386 STORE_NAME               3 (key_list)
+
+ 53     >>  388 LOAD_NAME                4 (len)
+            390 LOAD_NAME                3 (key_list)
+            392 CALL_FUNCTION            1
+            394 LOAD_NAME                4 (len)
+            396 LOAD_NAME                1 (input_list)
+            398 CALL_FUNCTION            1
+            400 COMPARE_OP               0 (<)
+            402 EXTENDED_ARG             1
+            404 POP_JUMP_IF_FALSE      420
+
+ 54         406 LOAD_NAME                3 (key_list)
+            408 LOAD_METHOD              5 (extend)
+            410 LOAD_NAME                3 (key_list)
+            412 CALL_METHOD              1
+            414 POP_TOP
+            416 EXTENDED_ARG             1
+            418 JUMP_ABSOLUTE          388
+
+ 56     >>  420 LOAD_CONST              66 (<code object <listcomp> at 0x000002246E2207C0, file "script.py", line 56>)
+            422 LOAD_CONST              65 ('<listcomp>')
+            424 MAKE_FUNCTION            0
+            426 LOAD_NAME                6 (zip)
+            428 LOAD_NAME                1 (input_list)
+            430 LOAD_NAME                3 (key_list)
+            432 CALL_FUNCTION            2
+            434 GET_ITER
+            436 CALL_FUNCTION            1
+            438 STORE_NAME               7 (result)
+
+ 58         440 LOAD_CONST              67 ('')
+            442 LOAD_METHOD              8 (join)
+            444 LOAD_NAME                9 (map)
+            446 LOAD_NAME               10 (chr)
+            448 LOAD_NAME                7 (result)
+            450 CALL_FUNCTION            2
+            452 CALL_METHOD              1
+            454 STORE_NAME              11 (result_text)
+
+ 59         456 LOAD_NAME               12 (print)
+            458 LOAD_NAME               11 (result_text)
+            460 CALL_FUNCTION            1
+            462 POP_TOP
+            464 LOAD_CONST               1 (None)
+            466 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0x000002246E220710, file "script.py", line 51>:
+ 51           0 BUILD_LIST               0
+              2 LOAD_FAST                0 (.0)
+        >>    4 FOR_ITER                12 (to 18)
+              6 STORE_FAST               1 (char)
+              8 LOAD_GLOBAL              0 (ord)
+             10 LOAD_FAST                1 (char)
+             12 CALL_FUNCTION            1
+             14 LIST_APPEND              2
+             16 JUMP_ABSOLUTE            4
+        >>   18 RETURN_VALUE
+
+Disassembly of <code object <listcomp> at 0x000002246E2207C0, file "script.py", line 56>:
+ 56           0 BUILD_LIST               0
+              2 LOAD_FAST                0 (.0)
+        >>    4 FOR_ITER                16 (to 22)
+              6 UNPACK_SEQUENCE          2
+              8 STORE_FAST               1 (a)
+             10 STORE_FAST               2 (b)
+             12 LOAD_FAST                1 (a)
+             14 LOAD_FAST                2 (b)
+             16 BINARY_XOR
+             18 LIST_APPEND              2
+             20 JUMP_ABSOLUTE            4
+        >>   22 RETURN_VALUE
