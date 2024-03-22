@@ -1,5 +1,6 @@
 import galois
 import numpy as np
+
 MOD = 7514777789
 
 points = []
@@ -9,6 +10,7 @@ for line in open('encoded.txt', 'r').read().strip().split('\n'):
     points.append((int(x), int(y)))
 
 GF = galois.GF(MOD)
+print(type(GF))
 
 matrix = []
 solution = []
@@ -18,8 +20,8 @@ for point in points:
 
     row = []
     for i in range(len(points)):
-        row.append(GF((x ** i) % MOD))
-    
+        row.append(GF(pow(x, i, MOD)))
+
     matrix.append(GF(row))
 
 open('output.bmp', 'wb').write(bytearray(np.linalg.solve(GF(matrix), GF(solution)).tolist()[:-1]))

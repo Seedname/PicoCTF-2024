@@ -1,0 +1,26 @@
+#include <immintrin.h>
+#include <stdint.h>
+
+// Assuming you have a function to prepare your data for the transformation
+void prepare_data(uint8_t *data, size_t length);
+
+void inverse_affine_transformation(uint8_t *data, size_t length, uint8_t A, uint8_t b) {
+    __m128i src, dest;
+    for (size_t i = 0; i < length; i += 16) {
+        // Load 16 bytes of data into src
+        src = _mm_loadu_si128((__m128i *)(data + i));
+        // Perform the inverse affine transformation using the intrinsic
+        dest = _mm_gf2p8affineinv_epi64_epi8(src, A, b);
+        // Store the result back into the data array
+        _mm_storeu_si128((__m128i *)(data + i), dest);
+    }
+}
+
+// Your main function or another function would call the above with appropriate parameters
+int main() {
+    uint8_t data[128]; // Example data array
+    prepare_data(data, 128);
+    inverse_affine_transformation(data, 128, /* A value */, /* b value */);
+    // Continue with the rest of your program
+    return 0;
+}

@@ -6,7 +6,7 @@ C is given from the oracle
 
 take the password, 873224563026311790736191809393138825971072101706285228102516279725246082824238887755080848591049817640245481028953722926586046994669540835757705139131212
 and multiply that by C to get C_b
-C_b = t^e * 32^e mod n
+C_b = t^e *  mod n
 where t is the plaintext password
 
 when the oracle decrypts the message, the following happens:

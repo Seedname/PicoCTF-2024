@@ -1,0 +1,36 @@
+the worst picoCTF problem known to mankind.
+
+run script.py to get some of them done automatically
+run
+exiftool -AllDates="1970:01:01 00:00:00" original_modified.jpg
+
+try to submit it, if it asks for subsectime stuff just add it in with exiftool commands
+
+For Samsung: TimeStamp, you cannot edit with exiftool
+
+julian-picoctf@webshell:~$ exiftool -Samsung:TimeStamp original_modified.jpg
+Time Stamp                      : 2023:11:20 20:46:21+00:00
+
+julian-picoctf@webshell:~$ exiftool -v2 original_modified.jpg
+Samsung trailer (143 bytes at offset 0x2b8e04):
+  SamsungTrailer_0x0a01Name = Image_UTC_Data
+  - Tag '0x0a01-name' (14 bytes)
+  TimeStamp = 1700513181420
+
+use xxd original_modified.jpg > original_modified.dump
+to get the hex dump
+
+Search for that using vim to find that it's a hex string
+
+Hex string for the timestamp we want is
+0000000000001 -> 3030 3030 3030 3030 3030 3030 3100
+Go to where
+1700513181420 -> 3137 3030 3531 3331 3831 3432 3000
+is and replace it with the first one
+
+convert back to jpeg with
+xxd <original_modified.dump >original_modified.jpg
+
+Submit and get flag
+
+picoCTF{71m3_7r4v311ng_p1c7ur3_12e0c36b}
